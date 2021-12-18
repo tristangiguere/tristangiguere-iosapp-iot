@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93A4A5F275ED29100C0EA67 /* SensorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A4A5E275ED29100C0EA67 /* SensorDetail.swift */; };
+		D945A3BC276BCD2200BBD092 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945A3BB276BCD2200BBD092 /* TempViewModel.swift */; };
+		D945A3BD276BCD2200BBD092 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945A3BB276BCD2200BBD092 /* TempViewModel.swift */; };
+		D945A3BE276BCD2200BBD092 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945A3BB276BCD2200BBD092 /* TempViewModel.swift */; };
+		D96640B52745A6F700B0E649 /* SensorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96640B42745A6F700B0E649 /* SensorsApp.swift */; };
+		D96640B92745A6FA00B0E649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96640B82745A6FA00B0E649 /* Assets.xcassets */; };
+		D96640BC2745A6FA00B0E649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D96640BB2745A6FA00B0E649 /* Preview Assets.xcassets */; };
+		D96640C72745A6FB00B0E649 /* SensorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96640C62745A6FB00B0E649 /* SensorsTests.swift */; };
+		D96640D22745A6FB00B0E649 /* SensorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96640D12745A6FB00B0E649 /* SensorsUITests.swift */; };
+		D96640E62745AA0100B0E649 /* Mont Blanc SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D96640E02745AA0100B0E649 /* Mont Blanc SemiBold.otf */; };
+		D96640E72745AA0100B0E649 /* Mont Blanc Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D96640E12745AA0100B0E649 /* Mont Blanc Light.otf */; };
+		D96640E82745AA0100B0E649 /* Mont Blanc Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D96640E22745AA0100B0E649 /* Mont Blanc Black.otf */; };
+		D96640E92745AA0100B0E649 /* Mont Blanc Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D96640E32745AA0100B0E649 /* Mont Blanc Regular.otf */; };
+		D96640EA2745AA0100B0E649 /* Mont Blanc Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D96640E42745AA0100B0E649 /* Mont Blanc Thin.otf */; };
+		D96640EB2745AA0100B0E649 /* Mont Blanc Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D96640E52745AA0100B0E649 /* Mont Blanc Bold.otf */; };
+		D96640EE2745AAAF00B0E649 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96640ED2745AAAF00B0E649 /* HomeView.swift */; };
+		D997016E27607B93006AE00E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997016D27607B93006AE00E /* Models.swift */; };
+		D99C796D275FD2EA00C99076 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99C796C275FD2EA00C99076 /* SignInView.swift */; };
+		D99C7971275FD4AB00C99076 /* SensorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99C7970275FD4AB00C99076 /* SensorCard.swift */; };
+		D9CCA899276194CC00781C0C /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CCA898276194CC00781C0C /* RefreshButton.swift */; };
+		D9E03A32276C56BF0017F2C3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03A31276C56BF0017F2C3 /* AuthViewModel.swift */; };
+		D9E03A33276C56BF0017F2C3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03A31276C56BF0017F2C3 /* AuthViewModel.swift */; };
+		D9E03A34276C56BF0017F2C3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03A31276C56BF0017F2C3 /* AuthViewModel.swift */; };
+		D9E03A36276C5DDD0017F2C3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03A35276C5DDD0017F2C3 /* MainView.swift */; };
+		D9E03A37276C5DDD0017F2C3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03A35276C5DDD0017F2C3 /* MainView.swift */; };
+		D9E03A38276C5DDD0017F2C3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03A35276C5DDD0017F2C3 /* MainView.swift */; };
+		D9EA3B82276D8D25001F6A0F /* TableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA3B81276D8D25001F6A0F /* TableHeader.swift */; };
+		D9EA3B84276D8E87001F6A0F /* TitleUnderlined.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA3B83276D8E87001F6A0F /* TitleUnderlined.swift */; };
+		D9EA3B86276D8F71001F6A0F /* RowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA3B85276D8F71001F6A0F /* RowList.swift */; };
+		D9EA3B8B276DA145001F6A0F /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9EA3B8A276DA145001F6A0F /* CryptoSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96640C32745A6FB00B0E649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96640A92745A6F700B0E649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96640B02745A6F700B0E649;
+			remoteInfo = Sensors;
+		};
+		D96640CE2745A6FB00B0E649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96640A92745A6F700B0E649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96640B02745A6F700B0E649;
+			remoteInfo = Sensors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D93A4A69275F0C7800C0EA67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D93A4A5E275ED29100C0EA67 /* SensorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorDetail.swift; sourceTree = "<group>"; };
+		D945A3BB276BCD2200BBD092 /* TempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewModel.swift; sourceTree = "<group>"; };
+		D96640B12745A6F700B0E649 /* Sensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96640B42745A6F700B0E649 /* SensorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsApp.swift; sourceTree = "<group>"; };
+		D96640B82745A6FA00B0E649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D96640BB2745A6FA00B0E649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D96640BD2745A6FA00B0E649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96640C22745A6FB00B0E649 /* SensorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96640C62745A6FB00B0E649 /* SensorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsTests.swift; sourceTree = "<group>"; };
+		D96640C82745A6FB00B0E649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96640CD2745A6FB00B0E649 /* SensorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96640D12745A6FB00B0E649 /* SensorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsUITests.swift; sourceTree = "<group>"; };
+		D96640D32745A6FB00B0E649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96640E02745AA0100B0E649 /* Mont Blanc SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont Blanc SemiBold.otf"; sourceTree = "<group>"; };
+		D96640E12745AA0100B0E649 /* Mont Blanc Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont Blanc Light.otf"; sourceTree = "<group>"; };
+		D96640E22745AA0100B0E649 /* Mont Blanc Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont Blanc Black.otf"; sourceTree = "<group>"; };
+		D96640E32745AA0100B0E649 /* Mont Blanc Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont Blanc Regular.otf"; sourceTree = "<group>"; };
+		D96640E42745AA0100B0E649 /* Mont Blanc Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont Blanc Thin.otf"; sourceTree = "<group>"; };
+		D96640E52745AA0100B0E649 /* Mont Blanc Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mont Blanc Bold.otf"; sourceTree = "<group>"; };
+		D96640ED2745AAAF00B0E649 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D997016D27607B93006AE00E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D99C796C275FD2EA00C99076 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D99C7970275FD4AB00C99076 /* SensorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SensorCard.swift; path = Views/SensorCard.swift; sourceTree = SOURCE_ROOT; };
+		D9CCA898276194CC00781C0C /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		D9E03A31276C56BF0017F2C3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		D9E03A35276C5DDD0017F2C3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D9EA3B81276D8D25001F6A0F /* TableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeader.swift; sourceTree = "<group>"; };
+		D9EA3B83276D8E87001F6A0F /* TitleUnderlined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleUnderlined.swift; sourceTree = "<group>"; };
+		D9EA3B85276D8F71001F6A0F /* RowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D96640AE2745A6F700B0E649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EA3B8B276DA145001F6A0F /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96640BF2745A6FB00B0E649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96640CA2745A6FB00B0E649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D945A3BA276BCCD600BBD092 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D945A3BB276BCD2200BBD092 /* TempViewModel.swift */,
+				D9E03A31276C56BF0017F2C3 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D96640A82745A6F700B0E649 = {
+			isa = PBXGroup;
+			children = (
+				D945A3BA276BCCD600BBD092 /* ViewModels */,
+				D997016A2760737E006AE00E /* Models */,
+				D96640EC2745AA9B00B0E649 /* Views */,
+				D96640DF2745A9D900B0E649 /* Fonts */,
+				D96640B32745A6F700B0E649 /* Sensors */,
+				D96640C52745A6FB00B0E649 /* SensorsTests */,
+				D96640D02745A6FB00B0E649 /* SensorsUITests */,
+				D96640B22745A6F700B0E649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D96640B22745A6F700B0E649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96640B12745A6F700B0E649 /* Sensors.app */,
+				D96640C22745A6FB00B0E649 /* SensorsTests.xctest */,
+				D96640CD2745A6FB00B0E649 /* SensorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96640B32745A6F700B0E649 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				D96640B42745A6F700B0E649 /* SensorsApp.swift */,
+				D96640B82745A6FA00B0E649 /* Assets.xcassets */,
+				D96640BD2745A6FA00B0E649 /* Info.plist */,
+				D96640BA2745A6FA00B0E649 /* Preview Content */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		D96640BA2745A6FA00B0E649 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D96640BB2745A6FA00B0E649 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D96640C52745A6FB00B0E649 /* SensorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D96640C62745A6FB00B0E649 /* SensorsTests.swift */,
+				D96640C82745A6FB00B0E649 /* Info.plist */,
+			);
+			path = SensorsTests;
+			sourceTree = "<group>";
+		};
+		D96640D02745A6FB00B0E649 /* SensorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D96640D12745A6FB00B0E649 /* SensorsUITests.swift */,
+				D96640D32745A6FB00B0E649 /* Info.plist */,
+			);
+			path = SensorsUITests;
+			sourceTree = "<group>";
+		};
+		D96640DF2745A9D900B0E649 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D96640E22745AA0100B0E649 /* Mont Blanc Black.otf */,
+				D96640E52745AA0100B0E649 /* Mont Blanc Bold.otf */,
+				D96640E12745AA0100B0E649 /* Mont Blanc Light.otf */,
+				D96640E32745AA0100B0E649 /* Mont Blanc Regular.otf */,
+				D96640E02745AA0100B0E649 /* Mont Blanc SemiBold.otf */,
+				D96640E42745AA0100B0E649 /* Mont Blanc Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D96640EC2745AA9B00B0E649 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D96640EF27469C8000B0E649 /* Components */,
+				D96640ED2745AAAF00B0E649 /* HomeView.swift */,
+				D93A4A5E275ED29100C0EA67 /* SensorDetail.swift */,
+				D99C796C275FD2EA00C99076 /* SignInView.swift */,
+				D9E03A35276C5DDD0017F2C3 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D96640EF27469C8000B0E649 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D99C7970275FD4AB00C99076 /* SensorCard.swift */,
+				D9CCA898276194CC00781C0C /* RefreshButton.swift */,
+				D9EA3B81276D8D25001F6A0F /* TableHeader.swift */,
+				D9EA3B83276D8E87001F6A0F /* TitleUnderlined.swift */,
+				D9EA3B85276D8F71001F6A0F /* RowList.swift */,
+			);
+			name = Components;
+			path = "UI Componentsà";
+			sourceTree = "<group>";
+		};
+		D997016A2760737E006AE00E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D997016D27607B93006AE00E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D96640B02745A6F700B0E649 /* Sensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96640D62745A6FB00B0E649 /* Build configuration list for PBXNativeTarget "Sensors" */;
+			buildPhases = (
+				D96640AD2745A6F700B0E649 /* Sources */,
+				D96640AE2745A6F700B0E649 /* Frameworks */,
+				D96640AF2745A6F700B0E649 /* Resources */,
+				D93A4A69275F0C7800C0EA67 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensors;
+			packageProductDependencies = (
+				D9EA3B8A276DA145001F6A0F /* CryptoSwift */,
+			);
+			productName = Sensors;
+			productReference = D96640B12745A6F700B0E649 /* Sensors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D96640C12745A6FB00B0E649 /* SensorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96640D92745A6FB00B0E649 /* Build configuration list for PBXNativeTarget "SensorsTests" */;
+			buildPhases = (
+				D96640BE2745A6FB00B0E649 /* Sources */,
+				D96640BF2745A6FB00B0E649 /* Frameworks */,
+				D96640C02745A6FB00B0E649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96640C42745A6FB00B0E649 /* PBXTargetDependency */,
+			);
+			name = SensorsTests;
+			productName = SensorsTests;
+			productReference = D96640C22745A6FB00B0E649 /* SensorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D96640CC2745A6FB00B0E649 /* SensorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96640DC2745A6FB00B0E649 /* Build configuration list for PBXNativeTarget "SensorsUITests" */;
+			buildPhases = (
+				D96640C92745A6FB00B0E649 /* Sources */,
+				D96640CA2745A6FB00B0E649 /* Frameworks */,
+				D96640CB2745A6FB00B0E649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D96640CF2745A6FB00B0E649 /* PBXTargetDependency */,
+			);
+			name = SensorsUITests;
+			productName = SensorsUITests;
+			productReference = D96640CD2745A6FB00B0E649 /* SensorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D96640A92745A6F700B0E649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D96640B02745A6F700B0E649 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D96640C12745A6FB00B0E649 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D96640B02745A6F700B0E649;
+					};
+					D96640CC2745A6FB00B0E649 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D96640B02745A6F700B0E649;
+					};
+				};
+			};
+			buildConfigurationList = D96640AC2745A6F700B0E649 /* Build configuration list for PBXProject "Sensors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D96640A82745A6F700B0E649;
+			packageReferences = (
+				D9EA3B89276DA145001F6A0F /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			productRefGroup = D96640B22745A6F700B0E649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D96640B02745A6F700B0E649 /* Sensors */,
+				D96640C12745A6FB00B0E649 /* SensorsTests */,
+				D96640CC2745A6FB00B0E649 /* SensorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D96640AF2745A6F700B0E649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96640E82745AA0100B0E649 /* Mont Blanc Black.otf in Resources */,
+				D96640EB2745AA0100B0E649 /* Mont Blanc Bold.otf in Resources */,
+				D96640BC2745A6FA00B0E649 /* Preview Assets.xcassets in Resources */,
+				D96640E72745AA0100B0E649 /* Mont Blanc Light.otf in Resources */,
+				D96640EA2745AA0100B0E649 /* Mont Blanc Thin.otf in Resources */,
+				D96640E92745AA0100B0E649 /* Mont Blanc Regular.otf in Resources */,
+				D96640B92745A6FA00B0E649 /* Assets.xcassets in Resources */,
+				D96640E62745AA0100B0E649 /* Mont Blanc SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96640C02745A6FB00B0E649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96640CB2745A6FB00B0E649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D96640AD2745A6F700B0E649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96640EE2745AAAF00B0E649 /* HomeView.swift in Sources */,
+				D9E03A36276C5DDD0017F2C3 /* MainView.swift in Sources */,
+				D93A4A5F275ED29100C0EA67 /* SensorDetail.swift in Sources */,
+				D945A3BC276BCD2200BBD092 /* TempViewModel.swift in Sources */,
+				D99C7971275FD4AB00C99076 /* SensorCard.swift in Sources */,
+				D9EA3B86276D8F71001F6A0F /* RowList.swift in Sources */,
+				D99C796D275FD2EA00C99076 /* SignInView.swift in Sources */,
+				D96640B52745A6F700B0E649 /* SensorsApp.swift in Sources */,
+				D9EA3B82276D8D25001F6A0F /* TableHeader.swift in Sources */,
+				D9EA3B84276D8E87001F6A0F /* TitleUnderlined.swift in Sources */,
+				D9E03A32276C56BF0017F2C3 /* AuthViewModel.swift in Sources */,
+				D997016E27607B93006AE00E /* Models.swift in Sources */,
+				D9CCA899276194CC00781C0C /* RefreshButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96640BE2745A6FB00B0E649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D945A3BD276BCD2200BBD092 /* TempViewModel.swift in Sources */,
+				D9E03A37276C5DDD0017F2C3 /* MainView.swift in Sources */,
+				D96640C72745A6FB00B0E649 /* SensorsTests.swift in Sources */,
+				D9E03A33276C56BF0017F2C3 /* AuthViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96640C92745A6FB00B0E649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D945A3BE276BCD2200BBD092 /* TempViewModel.swift in Sources */,
+				D9E03A38276C5DDD0017F2C3 /* MainView.swift in Sources */,
+				D96640D22745A6FB00B0E649 /* SensorsUITests.swift in Sources */,
+				D9E03A34276C56BF0017F2C3 /* AuthViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D96640C42745A6FB00B0E649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96640B02745A6F700B0E649 /* Sensors */;
+			targetProxy = D96640C32745A6FB00B0E649 /* PBXContainerItemProxy */;
+		};
+		D96640CF2745A6FB00B0E649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96640B02745A6F700B0E649 /* Sensors */;
+			targetProxy = D96640CE2745A6FB00B0E649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D96640D42745A6FB00B0E649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D96640D52745A6FB00B0E649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D96640D72745A6FB00B0E649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sensors/Preview Content\"";
+				DEVELOPMENT_TEAM = Y788J5Z5YY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giguere.apps.Sensors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96640D82745A6FB00B0E649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sensors/Preview Content\"";
+				DEVELOPMENT_TEAM = Y788J5Z5YY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giguere.apps.Sensors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D96640DA2745A6FB00B0E649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y788J5Z5YY;
+				INFOPLIST_FILE = SensorsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giguere.apps.SensorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensors.app/Sensors";
+			};
+			name = Debug;
+		};
+		D96640DB2745A6FB00B0E649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y788J5Z5YY;
+				INFOPLIST_FILE = SensorsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giguere.apps.SensorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensors.app/Sensors";
+			};
+			name = Release;
+		};
+		D96640DD2745A6FB00B0E649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y788J5Z5YY;
+				INFOPLIST_FILE = SensorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giguere.apps.SensorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sensors;
+			};
+			name = Debug;
+		};
+		D96640DE2745A6FB00B0E649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y788J5Z5YY;
+				INFOPLIST_FILE = SensorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giguere.apps.SensorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sensors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D96640AC2745A6F700B0E649 /* Build configuration list for PBXProject "Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96640D42745A6FB00B0E649 /* Debug */,
+				D96640D52745A6FB00B0E649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96640D62745A6FB00B0E649 /* Build configuration list for PBXNativeTarget "Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96640D72745A6FB00B0E649 /* Debug */,
+				D96640D82745A6FB00B0E649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96640D92745A6FB00B0E649 /* Build configuration list for PBXNativeTarget "SensorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96640DA2745A6FB00B0E649 /* Debug */,
+				D96640DB2745A6FB00B0E649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96640DC2745A6FB00B0E649 /* Build configuration list for PBXNativeTarget "SensorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96640DD2745A6FB00B0E649 /* Debug */,
+				D96640DE2745A6FB00B0E649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9EA3B89276DA145001F6A0F /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9EA3B8A276DA145001F6A0F /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9EA3B89276DA145001F6A0F /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D96640A92745A6F700B0E649 /* Project object */;
+}
